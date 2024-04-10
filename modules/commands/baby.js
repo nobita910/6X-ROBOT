@@ -4,7 +4,7 @@ module.exports.config = {
   name: "baby",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN CHOUDHURY",
+  credits: "SHAWON CHOUDHURY",
   description: ".baby",
   commandCategory: "baby reply",
   cooldowns: 1,
