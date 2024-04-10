@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "info",
 	version: "1.0.1", 
 	hasPermssion: 0,
-	credits: "AYAN CHOWDHURY",
+	credits: "Shawon Sheikh",
 	description: "Admin and Bot info.",
 	commandCategory: "Owner",
 	cooldowns: 1,
@@ -24,37 +24,33 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.postimg.cc/XX6V60sM/FB-IMG-17117672646281762.jpg",
-"https://i.postimg.cc/3wNWBY69/Screenshot-2024-04-10-06-17-08-49.jpg",
-"https://i.postimg.cc/BnqYTbXN/IMG-20240406-164351.jpg"];
+["https://i.postimg.cc/V6Wy6wdr/Picsart-23-12-25-23-44-38-490.jpg",
+"https://i.postimg.cc/d3f5QNmZ/In-Shot-20231116-210842827.jpg",
+"https://i.postimg.cc/65SPBqYb/Picsart-24-01-04-18-28-55-394.jpg"];
 var callback = () => api.sendMessage({body:`𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 ❤🪽
 
-✰𝔹𝕠𝕥 ℕ𝕒𝕞𝕖︎︎︎✰: ${global.config.BOTNAME}
+✰𝗕𝗢𝗧 𝗡𝗔𝗠𝗘✰: ${global.config.BOTNAME}
 
-✿︎𝔹𝕠𝕥 𝔸𝕕𝕞𝕚𝕟✿︎ ☞︎︎︎ 𝐀𝐘𝐀𝐍 𝐂𝐇𝐎𝐔𝐃𝐇𝐔𝐑𝐘
+✿︎𝗕𝗼𝘁 𝗔𝗗𝗠𝗜𝗡✿︎ ☞︎︎︎ 𝗦𝗛𝗔𝗪𝗢𝗡 𝗦𝗛𝗘𝗜𝗞𝗛
 
-༆ 𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐃 𝐋𝐢𝐧𝐤 :\n➪ https://www.facebook.com/AYAN.JANU.LOVE.YOU.MY.HEART 
+༆ 𝐁𝐎𝐓 𝐎𝐰𝐧𝐞𝐫 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐃 𝐋𝐢𝐧𝐤 :\n➪ https://www.facebook.com/FAKR.USER.0 
 
-👋𝔽𝕠𝕣 𝔸𝕟𝕪 𝕂𝕚𝕟𝕕 𝕆𝕗 ℍ𝕖𝕝𝕡 ℂ𝕠𝕟𝕥𝕒𝕔𝕥 𝕆𝕟 𝔽𝕓 :\n➪ ♕︎Mohammad Ayan♕︎
+💗 𝙁𝙊𝙍 𝘼𝙉𝙔 𝙆𝙄𝙉𝘿 𝙊𝙁 𝙃𝙀𝙇𝙋  𝘾𝙊𝙉𝙏𝘼𝘾𝙏 𝙊𝙉 𝙁𝘽 :\n➪ ✨𝐒𝐇𝐀𝐖𝐎𝐍 𝐒𝐇𝐄𝐈𝐊𝐇 ✨
 
 ✧━━━━━━━━━━━━━━━❤🪽
 
-❀𝐁𝐨𝐭 𝐏𝐫𝐞𝐟𝐢𝐱❀: ➪ [ ${global.config.PREFIX} ] 
-
-♕︎𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿♕︎:  𝐀𝐘𝐀𝐍 𝐂𝐇𝐎𝐔𝐃𝐇𝐔𝐑𝐘
-
-👑𝕌ℙ𝕋𝕀𝕄𝔼👑 𝟚𝟜/𝟟
-
-✰𝐓𝐨𝐝𝐚𝐲 𝐢𝐬✰\n\n${juswa} 
-
-᯾𝐁𝐨𝐭 𝐢𝐬 𝐫𝐮𝐧𝐧𝐢𝐧𝐠᯾ [ ${hours}:${minutes}:${seconds} ]
-
-💟𝑻𝒉𝒂𝒏𝒌 𝒚𝒐𝒖 𝒇𝒐𝒓 𝒖𝒔𝒆𝒊𝒏𝒈 ${global.config.BOTNAME} 
+🔍 𝗕𝗢𝗧 𝗣𝗥𝗘𝗙𝗜𝗫❀: ➪ [ ${global.config.PREFIX} ] 
 
 
-♕︎𝗛𝗲𝗿𝗲 𝗶𝘀 𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 𝗻𝗮𝗺𝗲➪
+🕐𝗨𝗣𝗧𝗜𝗠𝗘🕙 𝟚𝟜/𝟟
 
-♕︎𝐀𝐘𝐀𝐍 𝐂𝐇𝐎𝐔𝐃𝐇𝐔𝐑𝐘♕︎
+✰𝗧𝗢𝗗𝗔𝗬 𝗜𝗦✰\n\n${juswa} 
+
+᯾𝗕𝗢𝗧 𝗜𝗦 𝗥𝘂𝗻𝗻𝗶𝗻𝗴᯾ [ ${hours}:${minutes}:${seconds} ]
+
+💟𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮 𝐅𝐨𝐫 𝐔𝐬𝐞𝐢𝐧𝐠  ${global.config.BOTNAME} 
+
+☞︎︎︎☕︎ 𝗛𝗔𝗣𝗣𝗬 𝗕𝗢𝗧 𝗨𝗦𝗘𝗥𝗦 🥳
 
 
 `,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
