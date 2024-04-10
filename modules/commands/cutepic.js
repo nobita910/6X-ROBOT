@@ -2,7 +2,7 @@ module.exports.config = {
   name: "cutepic",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "Ayan",
+  credits: "SALMAN",
   description: "Projec M4a.",
   commandCategory: "nsfw",
   usages: "panclose",
