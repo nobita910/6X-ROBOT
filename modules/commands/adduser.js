@@ -1,7 +1,7 @@
 module.exports.config = {
   name: 'adduser',
   version: '1.0.0',
-  credits: 'AYAN',
+  credits: 'Shawon Sheikh',
   hasPermssion: 2,
   description: 'group bot add',
   commandCategory: 'Admin',
