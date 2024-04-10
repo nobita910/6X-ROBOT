@@ -2,7 +2,7 @@ module.exports.config = {
   name: "18+",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN CHOWDHURY",
+  credits: "Shawon Sheikh",
   description: "Random ảnh girl",
   commandCategory: "nsfw",
   usages: "bdsex",
