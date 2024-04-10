@@ -8,7 +8,7 @@ module.exports.config = {
 
  hasPermssion: 0,
 
- credits: "MR CHAND", 
+ credits: "Shawon Sheikh", 
 
  description: "no prefix",
 
