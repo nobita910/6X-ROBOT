@@ -2,7 +2,7 @@ module.exports.config = {
     name: "emgmix",
     version: "1.0.1",
     hasPermssion: 0,
-    credits: "AYAN",
+    credits: "SALMAN",
     description: "Mix emoji",
     commandCategory: "image",
     usages: "[emoji1 + emoji2]",
