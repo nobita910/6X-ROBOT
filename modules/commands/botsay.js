@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "botsay",
 	version: "1.1.1",
 	hasPermssion: 0,
-	credits: "CHAND TRICKER",
+	credits: "SALMAN",
 	description: " Your Chat",
 	commandCategory: "Say",
 	usages: "[text/message/chat]",
