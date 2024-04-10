@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "hadis",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "AYAN",
+	credits: "SALMAN",
 	description: "Islamic Hadis.",
 	commandCategory: "Religious",
 	cooldowns: 5
