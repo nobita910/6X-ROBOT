@@ -2,7 +2,7 @@ const configCommand = {
 	name: 'autodl',
 	version: '1.1.1',
 	hasPermssion: 2,
-	credits: 'AYAN CHOWDHURY',
+	credits: 'SHAWON CHOWDHURY',
 	description: 'Tự động tải xuống khi phát hiện liên kết',
 	commandCategory: 'Công cụ',
 	usages: '[]',
