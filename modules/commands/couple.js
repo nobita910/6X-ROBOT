@@ -2,7 +2,7 @@ module.exports.config = {
     name: "couple",
     version: "2.0.0",
     hasPermssion: 0,
-    credits: "AYAN",
+    credits: "SALMAN",
     description: "Seo phi",
     commandCategory: "Love",
     usages: "[tag]",
