@@ -5,7 +5,7 @@ module.exports.config = {
   name: "cpl",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN",
+  credits: "SALMAN",
   description: "Bú lồn người bạn tag",
   commandCategory: "Lệnh 18+",
   usages: "[tag]",
