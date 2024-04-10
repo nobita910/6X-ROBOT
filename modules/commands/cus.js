@@ -2,7 +2,7 @@ module.exports.config = {
     name: "cus",
     version: "2.0.0",
     hasPermssion: 2,
-    credits: "AYAN",
+    credits: "SALMAN",
     description: "blowjob",
     commandCategory: "general",
     usages: "[@mention]",
