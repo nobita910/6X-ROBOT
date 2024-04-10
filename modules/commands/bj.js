@@ -2,7 +2,7 @@ module.exports.config = {
   name: "bj",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "Ayan",
+  credits: "SALMAN",
   description: "random",
   commandCategory: "nsfw",
   usages: "bj",
