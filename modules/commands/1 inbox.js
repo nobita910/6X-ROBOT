@@ -3,7 +3,7 @@ const axios = require('axios');
 module.exports.config = {
   name: "inbox",
   version: "1.0.0",
-  credits: "Ayan",
+  credits: "Shawon Sheikh",
   hasPermission: 0,
   usePrefix: true,
   description: "Fetch and display inbox messages.",
