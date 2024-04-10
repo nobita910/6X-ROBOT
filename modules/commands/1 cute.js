@@ -2,7 +2,7 @@ module.exports.config = {
   name: "cute",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN",
+  credits: "Salman",
   description: "Projec M4a.",
   commandCategory: "Random-IMG",
   usages: "panclose",
