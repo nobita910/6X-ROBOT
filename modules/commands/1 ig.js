@@ -1,9 +1,9 @@
-/** Don't change Credit...AYAN is real owner**/
+/** Don't change Credit...Shawon is real owner**/
 module.exports.config = {
   name: "\n",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN",
+  credits: "Shawon Sheikh",
   description: "command",
   commandCategory: "prefix reply",
   usages: "ig",
