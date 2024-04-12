@@ -2,7 +2,7 @@ module.exports.config = {
   name: "ib",
   version: "1.0.",
   hasPermssion: 0,
-  credits: "AYAN CHOWDHURY",//dont change credit😠
+  credits: "SALMAN CHOWDHURY",//dont change credit😠
   description: "inbox msg",
   commandCategory: " inbox text",
   usages: "bot text to your inbox",
