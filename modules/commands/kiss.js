@@ -7,7 +7,7 @@ module.exports.config = {
     name: "kiss",
     version: "2.0.0",
     hasPermssion: 0,
-    credits: "AYAN",
+    credits: "SALMAN",
     description: "",
     commandCategory: "Love",
     usages: "[tag]",
