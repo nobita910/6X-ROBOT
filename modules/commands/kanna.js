@@ -2,7 +2,7 @@ module.exports.config = {
   name: "kanna",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "Ayan",
+  credits: "Salman",
   description: "See pictures of baby dragons",
   commandCategory: "ramdom-images",
   usages: "kanna",
