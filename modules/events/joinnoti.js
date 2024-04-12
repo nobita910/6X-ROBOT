@@ -2,7 +2,7 @@ module.exports.config = {
   name: "joinNoti",
   eventType: ["log:subscribe"],
   version: "1.0.1",
-  credits: "AYAN",
+  credits: "SHAWON",
   description: "Notify bots or people entering the group",
   dependencies: {
     "fs-extra": ""
@@ -14,7 +14,7 @@ module.exports.run = async function({ api, event }) {
   const { threadID } = event;
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`【.】${global.config.BOTNAME} |.𝐱𝐚𝐧`, threadID, api.getCurrentUserID());
-    return api.sendMessage(`✰━━━━━━━━━━━━━✰\n🤖 𝐓𝐡𝐚𝐧𝐤𝐬 𝐟𝐨𝐫 𝐣𝐨𝐢𝐧𝐢𝐧𝐠 𝐦𝐞 ✅\n \n🥀AYAN ROBOT🥀\n \n𝐌𝐲 𝐛𝐨𝐬𝐬 𝐢𝐬 𝐀𝐘𝐀𝐍\n \n📝𝐓𝐡𝐢𝐬 𝐢𝐬 𝐦𝐲 𝐏𝐫𝐞𝐟𝐢𝐱 : 【 ${global.config.PREFIX} 】\n \n𝐒𝐞𝐞 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐛𝐲 𝐰𝐫𝐢𝐭𝐢𝐧𝐠 ${global.config.PREFIX}𝐡𝐞𝐥𝐩 📝\n \n𝐖𝐞 𝐮𝐬𝐞 𝐚𝐧𝐝 𝐭𝐞𝐚𝐜𝐡📝\n \n𝐈 𝐰𝐢𝐥𝐥 𝐟𝐥𝐢𝐫𝐭 𝐰𝐢𝐭𝐡 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐚𝐧𝐝 𝐧𝐨 𝐨𝐧𝐞 𝐰𝐢𝐥𝐥 𝐦𝐢𝐧𝐝⏳🗿⌛\n \n𝐄𝐧𝐣𝐨𝐲 𝐮𝐬𝐢𝐧𝐠 𝐦𝐞🚀\n \n𝐈𝐟 𝐭𝐡𝐞𝐫𝐞 𝐢𝐬 𝐚𝐧𝐲 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐭𝐞𝐥𝐥 𝐀𝐘𝐀𝐍 𝐁𝐎𝐒𝐒 𝐭𝐨 𝐡𝐢𝐦🌈\n \n𝐍𝐨 𝐨𝐧𝐞 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐡𝐮𝐫𝐭 𝐛𝐲 𝐦𝐲 𝐰𝐨𝐫𝐝𝐬, 𝐣𝐮𝐬𝐭 𝐬𝐚𝐲 𝐰𝐡𝐚𝐭 𝐈 𝐭𝐞𝐚𝐜𝐡🖇💻\n \n𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐮𝐬𝐢𝐧𝐠 𝐦𝐞 📝 🌈\n✰━━━━━━━━━━━━━✰`, threadID);
+    return api.sendMessage(`✰━━━━━━━━━━━━━✰\n🤖 𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐉𝐨𝐢𝐧𝐢𝐧𝐠 𝐌𝐞  ✅\n \n✨𝐍𝐎𝐁𝐈𝐓𝐀-𝐑𝐎𝐁𝐎𝐓✨\n \n𝐌𝐲 𝐁𝐎𝐒𝐒 𝐈𝐒 𝐒𝐇𝐀𝐖𝐎𝐍\n \n📝𝐓𝐡𝐢𝐬 𝐢𝐬 𝐌𝐲 𝐏𝐫𝐞𝐟𝐢𝐱 : 【 ${global.config.PREFIX} 】\n \n𝐒𝐞𝐞 𝐀𝐥𝐥 𝐓𝐡𝐞  𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐁𝐲 𝐖𝐫𝐢𝐭𝐢𝐧𝐠 ${global.config.PREFIX}𝐡𝐞𝐥𝐩 📝\n \n𝐖𝐞 𝐔𝐬𝐞 𝐀𝐧𝐝 𝐓𝐞𝐚𝐜𝐡📝\n \n𝐈 𝐰𝐢𝐥𝐥 𝐟𝐥𝐢𝐫𝐭 𝐰𝐢𝐭𝐡 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐚𝐧𝐝 𝐍𝐨 𝐨𝐧𝐞 𝐰𝐢𝐥𝐥 𝐌𝐢𝐧𝐝⏳🗿⌛\n \n𝐄𝐧𝐣𝐨𝐲 𝐔𝐬𝐢𝐧𝐠 𝐌𝐞🚀\n \n𝐈𝐅 𝐓𝐡𝐞𝐫𝐞 𝐢𝐬 𝐀𝐧𝐲 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 𝐓𝐞𝐥𝐥 𝐒𝐇𝐀𝐖𝐎𝐍 𝐁𝐎𝐒𝐒 𝐓𝐨 𝐇𝐢𝐦🌈\n \n𝐍𝐨 𝐎𝐧𝐞 𝐖𝐢𝐥𝐥 𝐛𝐞 𝐇𝐮𝐫𝐭 𝐁𝐲 𝐌𝐲 𝐖𝐨𝐫𝐝𝐬, 𝐉𝐮𝐬𝐭 𝐒𝐚𝐲 𝐖𝐡𝐚𝐭 𝐈 𝐓𝐞𝐚𝐜𝐡🖇💻\n \n𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠 𝐦𝐞 📝 🌈\n✰━━━━━━━━━━━━━✰`, threadID);
   }
   else {
     try {
