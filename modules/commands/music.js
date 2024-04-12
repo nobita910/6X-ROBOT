@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "bra",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "Ayan",
+	credits: "SALMANA",
 	description: "Random Ảnh Bra Cực Cháyy",
 	commandCategory: "Random-IMG",
 	usages: "bra",
