@@ -3,7 +3,7 @@ module.exports.config = {
   name: "status2",
   version: "1.0.0",
   hasPermssi: 0,
-  credits: "AYAN CHOWDHURY",
+  credits: "𝗦𝗛𝟰𝗪𝗢𝗡 CHOWDHURY",
   description: "ISLAMIC VEDIO",
   commandCategory: "Hình ảnh",
   usages: "sad video",
@@ -19,7 +19,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["💗AYAN VIDEO💗"];
+   var hi = ["💗SH4WON VIDEO💗"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
