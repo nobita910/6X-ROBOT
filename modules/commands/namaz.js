@@ -2,7 +2,7 @@ module.exports.config = {
   name: "namaz",
   version: "1.0.0", 
   hasPermssion: 0,
-  credits: "AYAN",// don’t change credits please
+  credits: "SALMAN",// don’t change credits please
   usePrefix: false,
   description: "namaj time",
   commandCategory: "Islamic", 
@@ -35,7 +35,7 @@ module.exports.run = async function ({ api, event, args }) {
     fs.writeFileSync(__dirname + "/cache/video.mp4", Buffer.from(videoBuffer.data, "utf-8"));
     const videoReadStream = fs.createReadStream(__dirname + "/cache/video.mp4");
 
-    const msg = `───※ ·AYAN· ※───\n\nprayer time:${prompt}\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n╰┈► 𝗳𝗮𝗷𝗿: ${timings.Fajr}\n\n╰┈► 𝗗𝗵𝘂𝗵𝗿/𝘇𝘂𝗵𝗮𝗿: ${timings.Dhuhr}\n\n╰┈► 𝗮𝘀𝗿: ${timings.Asr}\n\n╰┈► 𝗦𝘂𝗻𝘀𝗲𝘁: ${timings.Sunset}\n\n╰┈► 𝗠𝗮𝗴𝗿𝗶𝗯: ${timings.Maghrib}\n\n╰┈► 𝗶𝘀𝗵𝗮: ${timings.Isha}\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n╰┈► 𝗶𝗺𝘀𝗮𝗸: ${timings.Imsak}\n\n╰┈► 𝗺𝗶𝗱𝗻𝗶𝗴𝗵𝘁: ${timings.Midnight}\n\n───※ ·𝐀𝐒𝐈𝐅 𝐱𝟔𝟗 𝘽𝙊𝙏· ※───`;
+    const msg = `───※ ·SH4WON· ※───\n\nprayer time:${prompt}\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n╰┈► 𝗳𝗮𝗷𝗿: ${timings.Fajr}\n\n╰┈► 𝗗𝗵𝘂𝗵𝗿/𝘇𝘂𝗵𝗮𝗿: ${timings.Dhuhr}\n\n╰┈► 𝗮𝘀𝗿: ${timings.Asr}\n\n╰┈► 𝗦𝘂𝗻𝘀𝗲𝘁: ${timings.Sunset}\n\n╰┈► 𝗠𝗮𝗴𝗿𝗶𝗯: ${timings.Maghrib}\n\n╰┈► 𝗶𝘀𝗵𝗮: ${timings.Isha}\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n╰┈► 𝗶𝗺𝘀𝗮𝗸: ${timings.Imsak}\n\n╰┈► 𝗺𝗶𝗱𝗻𝗶𝗴𝗵𝘁: ${timings.Midnight}\n\n───※ ·NOBITA-BOT· ※───`;
 
     return api.sendMessage(
       {
