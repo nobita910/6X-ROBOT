@@ -61,8 +61,8 @@ module.exports.handleReply = async function ({ api, event, handleReply, Users, T
             break;
         }
         case "reply": {
-            let text = `MESSAGE FROM 𝑨𝑫𝑴𝑰𝑵 \n\n『Message』 : ${body}\n\n\n『Admin Name』 ${name}\n\nReply to this Message if you want to respond to this Announce`;
-            if(event.attachments.length > 0) text = await getAtm(event.attachments, `${body} MESSAGE FROM 𝑨𝑫𝑴𝑰𝑵 \n\n『Admin Name』 ${name}\n\nReply to this Message if you want to respond to this Announce.`);
+            let text = `𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗙𝗥𝗢𝗠 𝗔𝗗𝗠𝗜𝗡 \n\n『𝐌𝐞𝐬𝐬𝐚𝐠𝐞』 : ${body}\n\n\n『𝐀𝐝𝐦𝐢𝐧 𝐍𝐚𝐦𝐞』 ${name}\n\nReply to this Message if you want to respond to this Announce`;
+            if(event.attachments.length > 0) text = await getAtm(event.attachments, `${body} 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗙𝗥𝗢𝗠 𝗔𝗗𝗠𝗜𝗡 \n\n『𝐀𝐝𝐦𝐢𝐧 𝐍𝐚𝐦𝐞』 ${name}\n\nReply to this Message if you want to respond to this Announce.`);
             api.sendMessage(text, handleReply.threadID, (err, info) => {
                 atmDir.forEach(each => fs.unlinkSync(each))
                 atmDir = [];
@@ -85,8 +85,8 @@ module.exports.run = async function ({ api, event, args, Users }) {
     if (!args[0]) return api.sendMessage("Please input message", threadID);
     let allThread = global.data.allThreadID || [];
     let can = 0, canNot = 0;
-    let text = `MESSAGE FROM ADMIN \n\nMESSAGE:  ${args.join(" ")}\n\nADMIN NAME: ${await Users.getNameUser(senderID)} `;
-    if(event.type == "message_reply") text = await getAtm(messageReply.attachments, `MESSAGE FROM ADMIN\n\nMESSAGE:  ${args.join(" ")}\n\nADMIN NAME: ${await Users.getNameUser(senderID)}`);
+    let text = `𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗙𝗥𝗢𝗠 𝗔𝗗𝗠𝗜𝗡 \n\nMESSAGE:  ${args.join(" ")}\n\nADMIN NAME: ${await Users.getNameUser(senderID)} `;
+    if(event.type == "message_reply") text = await getAtm(messageReply.attachments, 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗙𝗥𝗢𝗠 𝗔𝗗𝗠𝗜𝗡\n\nMESSAGE:  ${args.join(" ")}\n\nADMIN NAME: ${await Users.getNameUser(senderID)}`);
     await new Promise(resolve => {
         allThread.forEach((each) => {
             try {
