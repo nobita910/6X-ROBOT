@@ -2,7 +2,7 @@ module.exports.config = {
     name: "pic",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "AYAN CHOWDHURY",
+    credits: "SALMAN CHOWDHURY",
     description: "Image search",
     commandCategory: "Search",
     usages: "[Text] - [number]",
