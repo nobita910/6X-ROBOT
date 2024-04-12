@@ -2,7 +2,7 @@ module.exports.config = {
   name: "imgur",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN CHOUDHURY",
+  credits: "SALMAN CHOUDHURY",
   description: "Create Image&video link",
   commandCategory: "Image",
   cooldowns: 1,
