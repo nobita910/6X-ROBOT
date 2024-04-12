@@ -15,9 +15,10 @@ module.exports.run = async function ({ api, args, Users, event }) {
   var arraytag = [];
   arraytag.push({ id: mention });
   var a = function (a) { api.sendMessage(a, event.threadID); }
-  a("✅𝙔𝙤𝙪𝙧 𝙬𝙞𝙨𝙝 𝙞𝙨 𝙢𝙮 𝙘𝙤𝙢𝙢𝙖𝙣𝙙, 𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙞𝙣𝙜 𝙞𝙣..");
+  a("𝐍𝐎𝐁𝐈𝐓𝐀-𝐁𝐎𝐓 𝐀𝐫𝐞 𝐑𝐞𝐬𝐭𝐚𝐫𝐭 𝐍𝐨𝐰...
+🔥✅");
   setTimeout(() => { a({ body: "3.." }) }, 5000);
   setTimeout(() => { a({ body: "2.." }) }, 10000);
   setTimeout(() => { a({ body: "1.." }) }, 15000);
-  setTimeout(() => { api.sendMessage("⏳𝙋𝙡𝙚𝙖𝙨𝙚 𝙬𝙖𝙞𝙩 𝙛𝙤𝙧 𝙖 𝙢𝙞𝙣𝙪𝙩𝙚, 𝙍𝙚𝙗𝙤𝙤𝙩𝙞𝙣𝙜 𝙨𝙮𝙨𝙩𝙚𝙢..", event.threadID, () => process.exit(1)) }, 20000);
+  setTimeout(() => { api.sendMessage("𝐍𝐎𝐁𝐈𝐓𝐀-𝐁𝐎𝐓 𝐀𝐫𝐞 𝐑𝐞𝐬𝐭𝐚𝐫𝐭 𝐍𝐨𝐰..✅🔥", event.threadID, () => process.exit(1)) }, 20000);
 };
